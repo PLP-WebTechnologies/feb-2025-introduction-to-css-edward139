@@ -1,0 +1,50 @@
+/* Style for the body */
+body {
+  font-family: 'Arial', sans-serif; /* Set a sans-serif font */
+  background-color: #f0f0f0; /* Light gray background */
+  color: #333; /* Dark text color */
+  margin: 0;
+  padding: 0;
+}
+
+/* Style for a header with ID */
+#main-header {
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  text-align: center; /* Center align text */
+  padding: 20px; /* Add padding around the header */
+  font-size: 2em; /* Increase font size */
+  margin-bottom: 20px; /* Add space below the header */
+}
+
+/* Style for a paragraph with class */
+.intro-text {
+  font-size: 1.2em; /* Larger font size */
+  color: #555; /* Gray text color */
+  margin: 20px; /* Margin around the paragraph */
+  padding: 10px; /* Padding inside the paragraph */
+  border: 2px solid #ddd; /* Light gray border */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #fff; /* White background */
+}
+
+/* Style for images */
+img {
+  width: 100%; /* Make image width 100% of the container */
+  max-width: 600px; /* Limit the max width of the image */
+  height: auto; /* Maintain aspect ratio */
+  border: 5px solid #ddd; /* Add a border around the image */
+  margin-top: 20px; /* Add space above the image */
+  border-radius: 10px; /* Rounded corners for the image */
+}
+
+/* Style for links */
+a {
+  text-decoration: none; /* Remove underline */
+  color: #4CAF50; /* Green color for links */
+}
+
+a:hover {
+  color: #333; /* Darken link color on hover */
+  text-decoration: underline; /* Underline on hover */
+}
