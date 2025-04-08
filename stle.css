@@ -1,0 +1,47 @@
+/* General styles using element selector */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* ID selector */
+#main-header {
+  background-color: #4A90E2;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 4px solid #357ABD;
+}
+
+/* Class selector */
+.content {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: white;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  line-height: 1.6;
+}
+
+/* Another class selector */
+.styled-image {
+  width: 100%;
+  max-width: 300px;
+  display: block;
+  margin: 20px auto;
+  border: 5px solid #4A90E2;
+  border-radius: 12px;
+}
+
+/* Footer styling */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #eee;
+  color: #555;
+  border-top: 1px solid #ccc;
+}
